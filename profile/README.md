@@ -7,7 +7,7 @@
 
 A single agent run touches several systems. The application knows the customer and the feature. The router knows the model, the tokens and the price. The provider knows the cache split. Every layer is observable on its own, and none of them can tell you what that customer's agent cost you last month. AUDR is one JSON record per metered operation, carrying enough identity and attribution that the records join.
 
-The telecom industry solved the same problem with the Call Detail Record. AUDR is built on that principle, for agents.
+The telecom industry solved the same problem with the [Call Detail Record](https://en.wikipedia.org/wiki/Call_detail_record). AUDR is built on that principle, for agents.
 
 ### 🚀 Getting Started
 
